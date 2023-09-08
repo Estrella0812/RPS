@@ -1,0 +1,135 @@
+body {
+  margin: 0;
+  background-color: orange;
+  /*background color changed, review before submitting.*/
+}
+
+#myBtn {
+  width: 10vh;
+  height: 10vh;
+  margin-bottom: 75vh;
+  float: right;
+  position: absolute;
+}
+
+h1{
+  position: relative;
+  color: white;
+  text-shadow: -1px 1px 0 #000,
+                          1px 1px 0 #000,
+                         1px -1px 0 #000,
+                        -1px -1px 0 #000;
+}
+h2{
+  color: white;
+  text-shadow: -1px 1px 0 #000,
+                          1px 1px 0 #000,
+                         1px -1px 0 #000,
+                        -1px -1px 0 #000;
+}
+
+
+.logo {
+  margin-top: 5vh;
+  display: block;
+  width: 15vw;
+  margin: auto;
+}
+
+.scoreBoard h1 {
+  float: left;
+  margin: 9px;
+}
+
+.scoreBoard {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  text-align: center;
+  font-size: 5vh;
+}
+
+.buttonContainer {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 0);
+}
+
+.buttonContainer .inner-buttonContainer {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+button {
+  border-radius: 3%;
+  border-style: none;
+  margin: 1vh;
+  width: 15vw;
+  height: 10vh;
+  background-color: lightgray;
+  margin-right: 100v;
+  font-size: 4vh;
+  color: black;
+  background-color: white;
+  box-shadow: -1px 1px 0 #000,
+                          1px 1px 0 #000,
+                         1px -1px 0 #000,
+                        -1px -1px 0 #000;
+  text-shadow: -1px 1px 0 #000,
+                          1px 1px 0 #000,
+                         1px -1px 0 #000,
+                        -1px -1px 0 #000;
+                        
+  /*added text shadow, review before submitting.*/
+  /*text-shadow: 10px 10px 10px black;*/
+}
+
+#firstPlayerName {
+  width: 15vw;
+  height: 5vh;
+}
+
+#secondPlayerName {
+  width: 15vw;
+  height: 5vh;
+}
+
+button:hover {
+  color: white;
+  text-shadow: -1px 1px 0 #000,
+                          1px 1px 0 #000,
+                         1px -1px 0 #000,
+                        -1px -1px 0 #000;
+}
+
+.left_img {
+  width: 10vw;
+  float: left;
+  margin-top: 25vh;
+  margin-left: 3vw;
+}
+
+.right_img {
+  width: 10vw;
+  float: right;
+  margin-top: 25vh;
+  margin-right: 3vw;
+}
+
+.leftInputImg {
+  width: 20vw;
+  float: left;
+  margin-top: 75vh;
+}
+
+.rightInputImg {
+  width: 20vw;
+  float: right;
+  margin-top: 75vh;
+}
